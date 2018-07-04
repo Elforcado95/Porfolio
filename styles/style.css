@@ -1,0 +1,288 @@
+
+/*  petits ecran (ecan de telephones, 576px et plus) 
+    Rendre l'application responsive
+*/
+@media (min-width: 576px) {
+
+}
+
+/* Ecrans Moyens (tablets, 768px et plus) */
+@media (min-width: 768px) {
+
+}
+
+/*  ecrans Larges (Ecran de bureau, 992px et plus) */
+@media (min-width: 992px) {
+
+}
+
+/*  Ecran vraiment large (large Ecran, 1200px et plus) */
+@media (min-width: 1200px) {
+
+}
+
+body{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(/images/imagedefond.jpg);
+    backface-visibility: inherit;
+    background-size: 120%;
+    background-repeat: no-repeat !important;
+}
+
+.tout{
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.137);
+    background-color: rgb(255, 255, 255) !important;
+}
+.error-message{
+    color: #ED302F;
+    display: none;
+}
+.caland{
+    color: #24D266;
+}
+.mess{
+    color: #3b5998;
+}
+.mess1{
+    color: crimson;
+}
+.mess2{
+    color: #fff;
+    margin-left: 4px;
+}
+.row .w .messw .messf .messy .messt .messl .messg:hover{
+   color: #fff !important;
+}
+.messy{
+    color: #ED302F;
+}
+.messl{
+    color: #0082CA;
+}
+.messg{
+    color: #DD4B39;
+}
+.messf{
+    color: #3B5998;
+}
+.messw{
+    color: #24D266;
+}
+.messt{
+    color: #55ACEE;
+}
+.anim1{
+    padding-top: 2%;
+}
+.anim2{
+    padding-top: 2%;
+}
+.anim3{
+    padding-top: 2%;
+}
+.nav1{
+    background-color:  rgba(1, 54, 75, 0.74) !important;
+    border: none !important;
+    border-radius: none !important;
+}
+
+nav ul li{
+    display: inline;
+    background-color: rgba(1, 54, 75, 0.74) !important;
+}
+nav ul li a:hover{
+    background-color: rgb(229, 241, 247) !important;
+}
+.coulmenu{
+    color: white !important;
+}
+
+nav ul li a{
+    font-size: 1.2em;
+}
+
+/* style menu */
+#login-dp{
+    min-width: 250px;
+    padding: 10px 10px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-gplus{
+    color: #fff;
+    background-color:#DD4B39;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgba(1, 54, 75, 0.74) !important;
+    color: #fff;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+
+/* 1) partie accueil et vidéo depresentation*/
+.accueil{
+    margin-left: 3%;
+    height: 40%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.13);
+}
+.presentation{
+    text-align: center;
+    margin-left: 2%;
+    height: 50%;
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.13);
+}
+.Tcol{
+    color:rgba(1, 54, 75, 0.74) !important;
+}
+.video{
+    width: 110%;
+    height: 100%;
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.13);
+}
+
+.row1{
+    width: 100%;
+    margin-top: 4%;
+}
+.col3{
+    text-align: center;
+    margin-left: 2%;
+    height: 40%;
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.13);
+}
+/* Fin 1) */
+
+/* 2) description textuelle de Graphiste */
+h4{
+    text-align: center;
+}
+
+.descripT{
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+.description{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.suivre{
+    font-weight: bold;
+    color:rgba(1, 54, 75) !important;
+}
+
+.suivre1{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* formulaire */
+.form1{
+    width: 50%;
+    margin-left: 24%;
+    box-shadow: 2px 2px 10px rgba(1, 18, 24, 0.13);
+    padding: 5%;
+}
+
+.champs{
+    border: 2px #000;
+    width: 100%;
+}
+
+h4{
+    color:rgba(1, 54, 75) !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* fin formulaire */
+
+/* Fin 2) */
+
+/* 3) style footer */
+.footinfo{
+    font-weight: bold;
+}
+.Fancre{
+    text-align: left; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footinfodroit{
+    color: lightslategrey
+}
+.Fdroits{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.Freseaux{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.img1{
+    height: 5%;
+    width: 68%;
+    margin-left: 20%;
+}
+
+.foot{
+    background-color: rgba(1, 54, 75) !important;
+    color: #fff;
+}
+/* Fin 3)*/
